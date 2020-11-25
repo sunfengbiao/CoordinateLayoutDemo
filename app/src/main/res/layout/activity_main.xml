@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--
+          这里使用AppBarLayout包裹ToolBar ，里边也可以放一些子控件，比如折叠控件
+          app:layout_scrollFlags="scroll|enterAlways"：
+          这个属性必须要有，否则滑动列表头布局和底部FloatingActionButton没反应
+      -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:title="支付宝"></androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!-- layout_behavior 这个属性必须要有，否则RecyclerView会顶到ToolBar顶部 -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <!-- layout_behavior 这个属性必须要有，否则FloatingActionButton 位置不对-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="70dp"
+        app:layout_behavior="com.icbc.coordinatelayoutdemo.TranslationBehavior"
+        app:layout_scrollFlags="scroll|enterAlways|snap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#666666"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/navigation_1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/navigation_2" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/navigation_3" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/navigation_4" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/navigation_5" />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
