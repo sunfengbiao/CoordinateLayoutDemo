@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7988116-2ed2-4b39-84bb-1587484b354d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBottomBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,17 +122,40 @@
       <option name="presentableId" value="Default" />
       <updated>1606308886243</updated>
     </task>
+    <task id="LOCAL-00001" summary="处理底部behavior">
+      <created>1606358818878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606358818879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="处理底部behavior">
+      <created>1606358959594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606358959594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="处理底部behavior" />
+    <option name="LAST_COMMIT_MESSAGE" value="处理底部behavior" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1606357065541">
       <screen x="0" y="23" width="1792" height="1030" />
     </state>
     <state x="709" y="252" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1030@0.23.1792.1030" timestamp="1606357065541" />
-    <state x="410" y="138" key="CommitChangelistDialog2" timestamp="1606358818678">
+    <state x="410" y="138" key="CommitChangelistDialog2" timestamp="1606358959435">
       <screen x="0" y="23" width="1792" height="1030" />
     </state>
-    <state x="410" y="138" key="CommitChangelistDialog2/0.23.1792.1030@0.23.1792.1030" timestamp="1606358818678" />
+    <state x="410" y="138" key="CommitChangelistDialog2/0.23.1792.1030@0.23.1792.1030" timestamp="1606358959435" />
+    <state x="496" y="264" key="Vcs.Push.Dialog.v2" timestamp="1606358967069">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="496" y="264" key="Vcs.Push.Dialog.v2/0.23.1792.1030@0.23.1792.1030" timestamp="1606358967069" />
     <state x="100" y="123" width="1592" height="826" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1606353009253">
       <screen x="0" y="23" width="1792" height="1030" />
     </state>
