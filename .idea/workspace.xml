@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7988116-2ed2-4b39-84bb-1587484b354d" name="Default Changelist" comment="" />
+    <list default="true" id="f7988116-2ed2-4b39-84bb-1587484b354d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBottomBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icbc/coordinatelayoutdemo/TranslationBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="WQCDU19C02002235" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,6 +49,11 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.icbc.coordinatelayoutdemo" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -108,5 +127,23 @@
       <updated>1606308886243</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1606357065541">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="709" y="252" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1030@0.23.1792.1030" timestamp="1606357065541" />
+    <state x="100" y="123" width="1592" height="826" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1606353009253">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="100" y="123" width="1592" height="826" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1606353009253" />
+    <state x="566" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1606354135957">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="566" y="368" key="com.intellij.ide.util.TipDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1606354135957" />
+    <state x="561" y="250" key="search.everywhere.popup" timestamp="1606356919010">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="561" y="250" key="search.everywhere.popup/0.23.1792.1030@0.23.1792.1030" timestamp="1606356919010" />
   </component>
 </project>

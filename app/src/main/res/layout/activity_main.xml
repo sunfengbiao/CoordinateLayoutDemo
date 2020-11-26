@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlways|snap"
-            app:title="支付宝"></androidx.appcompat.widget.Toolbar>
+            app:title="知乎"></androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
     <!-- layout_behavior 这个属性必须要有，否则RecyclerView会顶到ToolBar顶部 -->
@@ -29,7 +29,6 @@
         android:id="@+id/rcv_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="50dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     <!-- layout_behavior 这个属性必须要有，否则FloatingActionButton 位置不对-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -48,7 +47,7 @@
         android:background="#666666"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_behavior="@string/bottom_sheet_behavior">
+        app:layout_behavior="com.icbc.coordinatelayoutdemo.TranslationBottomBehavior">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
